@@ -18,7 +18,7 @@ export default function Modal({ closeModal, planet }) {
           </div>
           <div className="mock-text">
             <p onClick={() => closeModal(false)}>&#10006;</p>
-            <FastFacts props={planet} />
+            <FastFacts key={ planet } props={planet} />
           </div>
         </section>
       </article>

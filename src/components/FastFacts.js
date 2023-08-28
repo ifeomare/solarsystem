@@ -34,7 +34,7 @@ const FastFacts = (props) => {
 
       return (
         <>
-          <h2>Big Blue Planet</h2>
+          <h2>{users.nickname}</h2>
           <h3>Fast Facts</h3>
           <div className="my-text">
             <ol>
