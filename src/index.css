@@ -52,13 +52,12 @@ img {
   height: auto;
 }
 
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
   margin-top: auto;
-
 }
 .planet h2 {
   color: #27296d;
@@ -72,4 +71,4 @@ img {
   margin-bottom: 0.25rem;
   /* position: absolute; */
   /* bottom: 0*/
-} 
+}

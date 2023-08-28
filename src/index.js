@@ -1,16 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+// import ReactDOM from "react-dom/client";
 import { createRoot } from "react-dom/client";
-import UseEffectSec from "./UseEffectSec";
+// import UseEffectSec from "./UseEffectSec";
 import "./index.css";
-
-function PlanetList() {
-  return (
-    <section className="planetlist">
-      <UseEffectSec />
-    </section>
-  );
-}
+import PlanetList from "./App";
 
 const container = document.getElementById("root");
 const root = createRoot(container);
