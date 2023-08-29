@@ -39,7 +39,7 @@ body.active-modal {
   min-height: 60%;
   display: flex;
   background-color: black;
-  font-family: 'Anonymous Pro', monospace;
+  font-family: "Anonymous Pro", monospace;
   /* font-family: 'Indie Flower', cursive; */
   /* background-color: #27296d; */
 }
@@ -84,19 +84,19 @@ body.active-modal {
   /* border: 2px solid black; */
   padding: auto;
   min-width: 50%;
+  max-width: 50%;
   background-color: #1e2136;
   /* background-color: #27296d; */
   /* line-height: 0px */
 }
 
-.mock-text p{
+.mock-text p {
   color: white;
   float: right;
   padding: 2px 10px 0 0;
-  
 }
 
-.mock-text p:hover{
+.mock-text p:hover {
   cursor: pointer;
   color: black;
 }
@@ -124,6 +124,6 @@ body.active-modal {
   list-style-position: inside;
   margin: 25px 0 25px 20px;
 }
-h1{
+h1 {
   color: white;
 }

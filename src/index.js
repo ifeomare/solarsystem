@@ -1,10 +1,24 @@
 import React from "react";
-// import ReactDOM from "react-dom/client";
 import { createRoot } from "react-dom/client";
-// import UseEffectSec from "./UseEffectSec";
-import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import PlanetList from "./App";
+import Facts from "./pages/Facts";
+import "./index.css";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element:
+      <PlanetList />
+  },
+  {
+    path: "/fun-facts",
+    element: <Facts />,
+  },
+]);
 
 const container = document.getElementById("root");
 const root = createRoot(container);
-root.render(<PlanetList />);
+root.render(
+    <RouterProvider router={router} />
+);

@@ -1,13 +1,18 @@
 import UseEffectSec from './components/UseEffectSec';
-// import Modal from './components/Modal';
+import NavBar from "./components/NavBar";
 import './App.css';
+
 
 function PlanetList() {
   return (
-    <section className="planetlist">
+    <>
+      <NavBar />
+      <section className="planetlist">
       <UseEffectSec />
       {/* <Modal /> */}
     </section>
+    </>
+    
   );
 }
 

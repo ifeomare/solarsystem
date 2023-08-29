@@ -30,38 +30,45 @@ const FastFacts = (props) => {
 
   return (
     <>
-      {[distance].map((user) => {
+      {[radius].map((user) => {
+        return (
+          <>
+            <h2>{users.nickname}</h2>
+            <h3>Fast Facts</h3>
+            <div className="my-text">
+              <ol>
+                <b>
+                  <li>Moons: {users.moons}</li>
+                  <li className="rings">Rings: {users.rings}</li>
+                  {distance && (
+                    <>
+                      <li>One Year: {users.year} Earth Days</li>
+                      <li>
+                        Distance From The Sun:
+                        <ul>
+                          <li>{distance.miles}</li>
+                          <li>{distance.km}</li>
+                        </ul>
+                      </li>
+                    </>
+                  )}
+                  {!distance && (
+                    <li className="year">One Year: {users.year}</li>
+                  )}
+                  <li>
+                    Radius:
+                    <ul>
+                      <li>{user.miles}</li>
+                      <li>{user.km}</li>
+                    </ul>
+                  </li>
 
-      return (
-        <>
-          <h2>{users.nickname}</h2>
-          <h3>Fast Facts</h3>
-          <div className="my-text">
-            <ol>
-              <b>
-                <li>Moons: {users.moons}</li>
-                <li>Rings: {users.rings}</li>
-                <li>One Year: {users.year} Earth Days</li>
-                <li>
-                  Distance From The Sun:
-                  <ul>
-                    <li>{user.miles}</li>
-                    <li>{user.km}</li>
-                  </ul>
-                </li>
-                <li>
-                  Radius:
-                  <ul>
-                    <li>{radius.miles}</li>
-                    <li>{radius.km}</li>
-                  </ul>
-                </li>
-                <li>Type: {users.type}</li>
-              </b>
-            </ol>
-          </div>
-        </>
-      );
+                  <li>Type: {users.type}</li>
+                </b>
+              </ol>
+            </div>
+          </>
+        );
       })}
     </>
   );

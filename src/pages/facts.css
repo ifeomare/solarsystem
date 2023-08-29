@@ -1,0 +1,26 @@
+*{
+    color: white;
+}
+
+.facts{
+    /* position: absolute; */
+    transform: translate(0, 50px);
+}
+
+.mine {
+    display: flex;
+    align-items: center;
+    transform: translate(100px, 0);
+    word-break: normal;
+    max-width: 80%;
+    border: 2px solid white;
+    /* word-break: break-all */
+}
+
+/* .text{
+    display: flex;
+} */
+/* .text .header{
+    border-right: 2px solid white;
+    margin: 0 0 0 0;
+} */
