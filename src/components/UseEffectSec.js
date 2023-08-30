@@ -5,29 +5,19 @@ import Sun from "./Sun.js";
 const url = "http://localhost:8080/solarsystem/Milky Way";
 
 const UseEffectSec = () => {
-  const [users, setUsers] = useState([]);//planet info
+  const [users, setUsers] = useState([]); //planet info
   const [modal, setModal] = useState(false); //triggers pop-up window
   const [planet, setPlanet] = useState(""); //onclick - returns planet name
-  const [star, setStar] = useState("");
-  
+
   const getUsers = async () => {
     const response = await fetch(url);
     const users = await response.json();
-    // getStar(users.star)
     setUsers(users.starsystem);
-    // setStar(users.star);
-    // console.log(users);
   };
-
-  // const getStar = (props) => {
-  //   setStar(props);
-  //   console.log(star)
-  // }
 
   const getPlanet = (props) => {
     setPlanet(props);
-    // console.log(planet)
-  }
+  };
 
   if (modal) {
     document.body.classList.add("active-modal");
@@ -37,9 +27,7 @@ const UseEffectSec = () => {
 
   useEffect(() => {
     getUsers();
-    // getStar();
   }, []);
-
 
   return (
     <>
@@ -64,7 +52,6 @@ const UseEffectSec = () => {
       })}
       <Sun
         onClick={() => {
-          console.log("name");
           setModal(true);
           getPlanet("Sun");
         }}

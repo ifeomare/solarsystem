@@ -13,7 +13,7 @@
     transform: translate(100px, 0);
     word-break: normal;
     max-width: 80%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     /* word-break: break-all */
 }
 

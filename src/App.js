@@ -6,7 +6,7 @@ import './App.css';
 function PlanetList() {
   return (
     <>
-      <NavBar />
+      <NavBar link1={"yes"} link2={"no"} />
       <section className="planetlist">
       <UseEffectSec />
       {/* <Modal /> */}
