@@ -44,13 +44,6 @@ body.active-modal {
   /* background-color: #27296d; */
 }
 
-/* .close-modal {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  padding: 5px 7px;
-} */
-
 .mock-img {
   position: relative;
   /* display: flex;
@@ -58,7 +51,9 @@ body.active-modal {
     justify-content: center; */
   color: white;
   /* padding: 1rem 2rem; */
-  background-color: black;
+  /* background-color: black; */
+  background-image: url("https://wallpapercave.com/wp/wp2610854.png");
+  background-size: 300px 300px;
   border: 2px solid #1e2136;
   padding: auto;
   max-width: 50%;
@@ -102,7 +97,7 @@ body.active-modal {
 }
 
 .mock-text h2 {
-  padding: 10px 0 0 0;
+  padding: 10px 0 0 30px;
   color: white;
   display: flex;
   justify-content: center;
@@ -118,9 +113,6 @@ body.active-modal {
 
 .my-text li {
   color: #cbcee7;
-  /* color: #a2a8d3; */
-  /* display: list-item; */
-  /* list-style-type: decimal; */
   list-style-position: inside;
   margin: 25px 0 25px 20px;
 }

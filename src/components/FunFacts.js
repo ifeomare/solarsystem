@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import './FunFacts.css';
+
 const url = "http://localhost:8080/solarsystem/Milky Way";
 
 const FunFacts = () => {

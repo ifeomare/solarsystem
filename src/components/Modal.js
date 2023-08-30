@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import FastFacts from "./FastFacts";
 import "./Modal.css";
 
@@ -18,7 +18,7 @@ export default function Modal({ closeModal, planet }) {
           </div>
           <div className="mock-text">
             <p onClick={() => closeModal(false)}>&#10006;</p>
-            <FastFacts key={ planet } props={planet} />
+            <FastFacts key={planet} props={planet} />
           </div>
         </section>
       </article>

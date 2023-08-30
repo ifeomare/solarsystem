@@ -42,6 +42,10 @@ code {
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
+.planet:hover{
+  cursor: pointer;
+}
 /* rgba(10, 3, 19, 0.671) */
 /* rgba(12, 5, 22, 0.671) */
 /* rgba(8, 4, 14, 0.671) */

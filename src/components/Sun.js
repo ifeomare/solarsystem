@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Modal from "./Modal";
 const url = "http://localhost:8080/solarsystem/Milky Way";
 
 const Sun = ({ onClick }) => {
@@ -8,9 +7,7 @@ const Sun = ({ onClick }) => {
   const getUsers = async () => {
     const response = await fetch(url);
     const users = await response.json();
-    // getStar(users.star)
     setUsers(users.star);
-    // setStar(users.star);
   };
 
   useEffect(() => {

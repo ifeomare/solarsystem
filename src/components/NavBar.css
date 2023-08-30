@@ -1,20 +1,21 @@
 .nav {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 50px 0 0 0;
-    transform: translate(0, 50px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
+  transform: translate(0, 50px);
 }
 
-.nav :any-link{
-    margin: 0 5px 0 0;
-    padding: 7px 5px 0 5px;
-    color: #a2a8d3;
-    text-decoration: none;
+.nav :any-link {
+  margin: 0 5px 0 0;
+  padding: 7px 5px 0 5px;
+  color: #a2a8d3;
+  text-decoration: none;
 }
 
-.yes{
-    /* background: rgba(153, 31, 31, 0.8); */
-    border-bottom: 3px solid rgba(22, 20, 24, 0.8);
-    background: rgba(55, 51, 58, 0.8);
+.yes {
+  /* background: rgba(153, 31, 31, 0.8); */
+  border-bottom: 3px solid #a2a8d3;
+  /* border-bottom: 3px solid rgba(22, 20, 24, 0.8); */
+  /* background: linear-gradient(rgba(55, 51, 58, 0.8)); */
 }
