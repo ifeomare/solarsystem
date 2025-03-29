@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# solarsystem
+Small Solar System Visualization using a personal api
+[]()
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+A responsive web application that displays information about the solar system. Users can view planet facts and details, and interact with visually appealing UI elements using elements from the Solar System API.
 
-## Available Scripts
+### Features
 
-In the project directory, you can run:
+- Displays cards for each planet  the Sun
+- Clicking on cards triggers a popup containing additional information
+- Button designated to close each popup modal
 
-### `npm start`
+## Tech Stack
+- Javascript/React
+- HTML
+- CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
+### Clone this repository:
+`git clone https://github.com/ifeomare/solarsystem`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Navigate to the project directory
+`cd solarsystem`
 
-### `npm test`
+### Install dependencies
+`npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+**Note:** The corresponding API needs to be already running before this application starts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Start the application
+`npm start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Open the application in your browser
+http://localhost:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## API Integration
+**API repository link:** [Solar System API](https://github.com/ifeomare/SolarSystemAPI)
 
-### `npm run eject`
+Make sure the API server is running on http://localhost:8080
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If it is not running on this server, configure the following files with your API server:
+1. UseEffectSec.js
+2. Sun.js
+3. FastFacts.js
+4. FunFacts.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
+- View the planet and sun cards on the main screen
+- Click a card to view additional facts in a popup modal
+- Use the designated "X" button to close the popup modal
+- View fun facts about each planet on the "Fun Facts" page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Possible Future Enhancements
+- Trivia
+- Animation in popup modals
+- Incorporating more galaxies and their objects
