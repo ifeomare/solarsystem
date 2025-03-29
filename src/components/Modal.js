@@ -10,7 +10,7 @@ export default function Modal({ closeModal, planet }) {
         <section className="modal-content">
           <div className="mock-img">
             <img
-              src={`https://raw.githubusercontent.com/ifeomare/solarsystem/main/src/images/${planet.toLowerCase()}.png`}
+              src={`https://raw.githubusercontent.com/ifeomare/solarsystem/main/src/images/solarsystem-images/${planet.toLowerCase()}.png`}
               alt=""
               srcSet=""
             />
